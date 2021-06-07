@@ -1,0 +1,52 @@
+.note {
+	background-color: #fef68a;
+	border-radius: 10px;
+	padding: 1rem;
+	min-height: 170px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	white-space: pre-wrap;
+}
+
+.new {
+	background-color: #67d7cc;
+}
+
+.note_footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.save {
+	background-color: #fef68a;
+	border-radius: 15px;
+	border: none;
+	padding: 5px 10px;
+	cursor: pointer;
+}
+
+.save:hover {
+	background-color: white;
+}
+
+.delete_icon {
+	cursor: pointer;
+	opacity: 0.7;
+}
+
+.delete_icon:hover{
+	opacity: 1;
+	transform: translateY(4px);
+}
+
+textarea{
+	border: none;
+	resize: none;
+	background-color: #fef68a;
+}
+
+textarea:focus {
+	outline: none;
+}

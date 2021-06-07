@@ -1,0 +1,20 @@
+.btn {
+  background-color: #fef68a;
+  border-radius: 15px;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  transform: translateY(2px);
+  color:  black
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+
